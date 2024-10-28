@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="hh"></h1>
+    <script>
+        let marks = +prompt("enter your marks");
+        switch(true){
+            case marks >=90 && marks <=100:hh.textContent = "A+";break;
+            case marks>=80 && marks <=90:hh.textContent = "A";break;
+            case marks>=70 && marks <=80:hh.textContent = "B+";break;
+            case marks>=60 && marks <=70:hh.textContent = "B+";break;
+            case marks>=50 && marks <=60:hh.textContent = "B";break;
+            case marks>=40 && marks <=50:hh.textContent = "C+";break;
+            case marks>=30 && marks <=40:hh.textContent = "C";break;
+            case marks>100:hh.textContent = "Error";break;
+
+            default:document.write("failed");
+
+        }
+
+    </script>
+</body>
+</html>
